@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muslima Portfeli</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #f0f8ff, #ffe4e1);
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #ff69b4;
+        }
+        p {
+            font-size: 18px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin-top: 20px;
+            cursor: pointer;
+            background-color: #1e90ff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #104e8b;
+        }
+    </style>
+</head>
+<body>
+    <h1>Salom, men Muslima!</h1>
+    <p>Bu mening bitta HTML fayl bilan yaratilgan statik sayt misolim.</p>
+    <button id="salomBtn">Bosganingda salom chiqadi</button>
+
+    <script>
+        document.getElementById("salomBtn").addEventListener("click", function() {
+            alert("Salom, dunyo!");
+        });
+    </script>
+</body>
+</html>
